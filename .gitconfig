@@ -1,5 +1,5 @@
 [user]
-	email = willianmonts@gmail.com
+	email = willian.girhad@grafeno.digital
 	name = Willian Girhad
 [init]
 	defaultBranch = main
@@ -7,3 +7,6 @@
 	gpgsign = true
 [protocol "file"]
 	allow = always
+[core]
+	excludesFile = ~/.gitignore-global
+	pager = less -X -F
