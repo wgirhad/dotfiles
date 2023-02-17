@@ -21,6 +21,10 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+    source /etc/profile.d/vte.sh
+fi
+
 PATH="$HOME/.composer/vendor/bin:$PATH"
 PATH="vendor/bin:$PATH"
 
