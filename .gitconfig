@@ -1,0 +1,9 @@
+[user]
+	email = willianmonts@gmail.com
+	name = Willian Girhad
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[protocol "file"]
+	allow = always
