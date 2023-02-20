@@ -20,3 +20,6 @@ export PATH="$PNPM_HOME:$PATH"
 
 eval "$(rbenv init - zsh)"
 source $HOME/.nvm/nvm.sh
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/bin/terraform terraform
