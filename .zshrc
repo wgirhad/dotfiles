@@ -7,7 +7,7 @@ plugins=(git dotenv)
 [[ -f ~/.aliases ]] && . ~/.aliases
 [[ -f ~/.profile ]] && . ~/.profile
 
-export PAGER='bat'
+export PAGER='less'
 export EDITOR='nvim'
 export SSL_CERT_DIR=/etc/ssl/certs
 export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
