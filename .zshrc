@@ -1,6 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 export NODE_OPTIONS=--openssl-legacy-provider
-ZSH_THEME="kafeitu"
+ZSH_THEME="agnoster" # set by `omz`
 plugins=(git dotenv)
 
 [[ -f $ZSH/oh-my-zsh.sh ]] && source $ZSH/oh-my-zsh.sh
