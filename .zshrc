@@ -12,6 +12,7 @@ export EDITOR='nvim'
 export SSL_CERT_DIR=/etc/ssl/certs
 export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 export NEW_RELIC_AGENT_ENABLED=false
+export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 
 # pnpm
 export PNPM_HOME="$HOME/.local/share/pnpm"
