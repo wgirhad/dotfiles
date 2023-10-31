@@ -10,3 +10,5 @@
 [core]
     excludesFile = ~/.gitignore-global
     pager = less -X -F
+[rebase]
+	instructionFormat = (%an <%ae>) %s
