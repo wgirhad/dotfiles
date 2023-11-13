@@ -13,3 +13,4 @@ alias rubocop="bundle exec rubocop"
 alias cucumber="bundle exec cucumber"
 alias sidekiq="bundle exec sidekiq"
 alias erblint="bundle exec erblint"
+alias docked='docker run --rm -it -v ${PWD}:/rails -v ruby-bundle-cache:/bundle -p 3000:3000 ghcr.io/rails/cli'
